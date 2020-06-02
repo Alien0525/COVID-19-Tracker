@@ -1,6 +1,8 @@
 // ALL COUNTRY NAMES WITH THEIR ISO CODE
 let country_list = [
+    { name: 'India', code: 'IN' },
     { name: 'USA', code: 'US' },
+    { name: 'China', code: 'CN' },
     { name: 'Spain', code: 'ES' },
     { name: 'Italy', code: 'IT' },
     { name: 'France', code: 'FR' },
@@ -15,7 +17,6 @@ let country_list = [
     { name: 'Netherlands', code: 'NL' },
     { name: 'Switzerland', code: 'CH' },
     { name: 'Portugal', code: 'PT' },
-    { name: 'India', code: 'IN' },
     { name: 'Ireland', code: 'IE' },
     { name: 'Austria', code: 'AT' },
     { name: 'Peru', code: 'PE' },
@@ -201,8 +202,8 @@ let country_list = [
     { name: 'South Sudan', code: 'SD' },
     { name: 'Anguilla', code: 'AI' },
     { name: 'Saint Pierre Miquelon', code: 'PM' },
-    { name: 'Yemen', code: 'YE' },
-    { name: 'China', code: 'CN' }
+    { name: 'Yemen', code: 'YE' }
+    
 ];
 
 // SELECT SEARCH COUNTRY ELEMENTS
