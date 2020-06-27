@@ -48,7 +48,7 @@ function fetchData(user_country){
 		return response.json();
 	})
 	.then( data => {
-		dates = Object.keys(data);
+		dates = Object.keys(JSON.parse(JSON.stringify(data)));
 		
 		dates.forEach( date => {
 			let DATA = data[date];
@@ -140,5 +140,6 @@ const monthsNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Aug', 'Sep', 'Oc
 function formatDate(dateString){
 	let date = new Date(dateString);
 
+	
 	return `${date.getDate()} ${monthsNames[date.getMonth()]}`;
 }
